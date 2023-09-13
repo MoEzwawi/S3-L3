@@ -1,0 +1,38 @@
+body{
+    background-color: orange;
+    margin: 0;
+}
+.container{
+    text-align: center;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline-block;
+    margin: 1em;
+    color: white;
+    cursor: pointer;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+main {
+    width: 600px;
+    margin: 1.5em auto;
+    background-color: #ecf400;
+    padding: 20px;
+    padding-top: 2px;
+}
+.task-card{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.task-card *{
+    display: inline-block;
+    margin: 1em;
+}
+.task-card button{
+    padding: 0.5em;
+}
